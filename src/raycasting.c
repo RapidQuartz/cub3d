@@ -6,20 +6,19 @@
 /*   By: akjoerse <akjoerse@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/24 18:32:52 by daflynn           #+#    #+#             */
-/*   Updated: 2026/02/24 21:04:02 by akjoerse         ###   ########.fr       */
+/*   Updated: 2026/02/24 21:06:41 by akjoerse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "mlx.h"
-#include "./includes/cube3d.h"
-#include "./includes/guy.h"
+#include "../includes/cube3d.h"
+#include "../includes/guy.h"
 
 void draw_background(void *mlx, void *win)
 {
-	t_guy	;
+	t_guy	guy;
 	int	hex;
 
-	
 	hex = guy.guy_facing_dir;
     
     int x, y;
