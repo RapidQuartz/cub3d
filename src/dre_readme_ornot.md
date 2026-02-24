@@ -19,3 +19,9 @@ before realizing walls syncing
 
 qt coool actually otherwise
 forgot what talking about
+
+create XY pos for where maps starts in first place
+
+not sth that seems to be (intuitive) 
+
+-2/-3 weeks of troubleshootng
