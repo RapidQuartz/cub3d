@@ -3,14 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: daflynn <daflynn@student.42berlin.de>      +#+  +:+       +#+        */
+/*   By: akjoerse <akjoerse@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/24 18:18:41 by daflynn           #+#    #+#             */
-/*   Updated: 2026/02/24 18:33:22 by daflynn          ###   ########.fr       */
+/*   Updated: 2026/02/24 20:14:27 by akjoerse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "mlx.h"
+
 #include <stdlib.h>
+//for next meeting::
+//	make struct `struct	s_guy`
+//		s_guy contains current local position of guy on map
+///	implied:	`struct	s_map`
+
 
 void draw_background(void *mlx, void *win); // forward declaration
 
