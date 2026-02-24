@@ -6,7 +6,7 @@ LIBFT = $(LIBFT_DIR)/libft.a
 MLX_DIR = minilibx
 MLX_LIB = $(MLX_DIR)/libmlx.a
 
-SRC = src/main.c
+SRC = src/main.c src/raycasting.c
 OBJ = $(SRC:.c=.o)
 
 CC = cc
@@ -49,5 +49,6 @@ clean:
 fclean: clean
 	@make -C $(LIBFT_DIR) fclean
 	@rm -f $(NAME)
+	@rm -rf $(MLX_DIR)
 
 re: fclean all
