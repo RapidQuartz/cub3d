@@ -1,6 +1,5 @@
 hey ok so if this works we can collab lmao
 
-
 based on FOV of character
 aligns field cast
 first cast pizel
@@ -25,3 +24,6 @@ create XY pos for where maps starts in first place
 not sth that seems to be (intuitive) 
 
 -2/-3 weeks of troubleshootng
+
+pixels
+and things
